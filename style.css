@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Zen+Antique+Soft&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+
+body {
+  text-align: center;
+  color: rgba(10, 10, 10, 0.7);
+  background-color:whitesmoke;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+h1 {
+  letter-spacing: 140px;
+}
+
+h2 {
+    font-size: 12px;
+    letter-spacing: 15px;
+}
+p, a{
+   font-family: 'Zen Kaku Gothic Antique', sans-serif;
+   font-weight: lighter;
+   text-decoration: none;
+   color: rgba(10, 10, 10, 0.5);
+}
+
+a:hover {
+  background-color: whitesmoke;
+  color: rgba(100, 10, 10, 1.0);
+  font-size: larger;
+}
+
+p:hover {
+  color: rgba(10, 10, 10, 1.0);
+}
+
+#img-circle {
+  width: 500px;
+  margin: auto;
+  border-radius: 50%;
+}
+.card-white {
+  margin-bottom: 35px;
+  padding: 50px;
+  border-radius: 5px;
+
+}
+.headline {
+
+}
+.btn-red {
+  background-color: rgb(112, 57, 57);
+  color: antiquewhite;
+  padding: 5px;
+  margin-top: 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px rgb(112, 57, 57);
+}
+img {
+  -webkit-filter: grayscale(70%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(70%);
+}
+.list-inline {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+}
+/* #extra-margin {
+  margin-bottom: 10px;
+} */
